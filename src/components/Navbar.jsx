@@ -53,8 +53,7 @@ const Navbar = () => {
                         {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
                     </button>
                     <a
-                        href="/resume.pdf"
-                        download="Ragav_Resume.pdf"
+                        href="/Resume/Resume.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hidden md:flex items-center justify-center bg-pink-500 text-white px-5 py-2 rounded-full font-medium text-sm hover:bg-pink-600 transition-all shadow-md hover:shadow-pink-500/25"
